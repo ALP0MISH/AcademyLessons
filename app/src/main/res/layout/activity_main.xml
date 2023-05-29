@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Hello Baha!"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_weight="2"-->
+<!--        android:src="@drawable/ic_launcher_background" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/et_buy"-->
+<!--        android:layout_width="8dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:layout_margin="8dp"-->
+<!--        android:textCrolorNint="@color/purple_200"-->
+<!--        android:hint="ведите что хотите"-->
+<!--        app:layout_constaintEnd_toEndof="parent"-->
+<!--        app:layout_constaintStart_toStartof="parent"-->
+
+<!--    <Buttom-->
+<!--        android:id="@+id/btn_buy"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_hight="wrap_content"-->
+<!--        android:backgroundTits="@color/gold"-->
+<!--        android:text="Buy"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constainBottom_toBottomOf="parent"-->
+<!--        app:layout_constainEnd_toEndOf="paren"-->
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
