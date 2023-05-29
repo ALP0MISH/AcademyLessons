@@ -29,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
                 }
 
                 !loginText.contains("@gmail.com") -> {
-                    showToast("Не правелбный ввод логина")
+                    showToast(getString(R.string.Fill_in_the_login_input_field))
                 }
 
                 passwordText.isEmpty() -> {

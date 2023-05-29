@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AcademyLessons</string>
+    <string name="Fill_in_the_login_input_field">Заполните поле ввода для логина</string>
 </resources>

@@ -31,7 +31,7 @@ class UserCacheManager(
         sharedPreferences
             .edit()
             .putString(USER_PREF_KEY, userGsonString)
-            .apply() 
+            .apply()
     }
 
     fun removeCurrentUser() {
