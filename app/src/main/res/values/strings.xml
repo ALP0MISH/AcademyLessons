@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">AcademyLessons</string>
     <string name="Fill_in_the_login_input_field">Заполните поле ввода для логина</string>
+    <string name="Fill_in_the_text">Заполните текст</string>
+    <string name="Incorrect_login_entry">Неправельный ввод логина</string>
+    <string name="The_threshold_must_contain_at_least_8_characters">Пороль должен содержать не менее 8 символов</string>
+    <string name="you_clicked_on_the_button">вы нажали на кнопку </string>
+    <string name="everything_is_correct">все правельно </string>
 </resources>

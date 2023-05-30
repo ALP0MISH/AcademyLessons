@@ -17,31 +17,31 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        showToast("кнопку")
+        showToast(getString(R.string.you_clicked_on_the_button))
 
         binding.enterButton.setOnClickListener {
-            showToast("вы нажали на кнопку")
+            showToast(getString(R.string.you_clicked_on_the_button))
             val loginText = binding.loginEditText.text.toString()
             val passwordText = binding.loginEditText.text.toString()
             when {
                 loginText.isEmpty() -> {
-                    showToast("Заполните поле ввода для логина")
-                }
-
-                !loginText.contains("@gmail.com") -> {
                     showToast(getString(R.string.Fill_in_the_login_input_field))
                 }
 
+                !loginText.contains("@gmail.com") -> {
+                    showToast(getString(R.string.Incorrect_login_entry))
+                }
+
                 passwordText.isEmpty() -> {
-                    showToast("Заполните текст")
+                    showToast(getString(R.string.Fill_in_the_text))
                 }
 
                 passwordText.length <= 8 -> {
-                    showToast("Пороль должен содержать не менее 8 символов ")
+                    showToast(getString(R.string.The_threshold_must_contain_at_least_8_characters))
                 }
 
                 else -> {
-                    showToast("все правельно")
+                    showToast(getString(R.string.everything_is_correct))
                     val intent = Intent(this, Music_List_Activity::class.java)
                     startActivity(intent)
 
